@@ -1,0 +1,25 @@
+Question:
+You are given 2 arrays, arr1 and arr2, of each length n, having n number of elements.
+You have to find an element X for which sum of elements of arr1 - arr2 is maximise.
+
+How to choose X?
+1. When you will choose the X, the elements smaller than X will become 1,
+and the elements larger than X will become 2.
+
+Constraints:
+0 <= n <= 10^5
+0 <= arr[i] <= 10^9
+
+Example1:
+
+Input :
+arr1 = [1, 2, 10, 5, 8]
+arr2 = [4, 2, 3, 9, 1]
+
+Output : 10
+
+Explanations:
+After choosing 10 as X
+arr1 = [1, 1, 2, 1, 1]
+arr2 = [1, 1, 1, 1, 1]
+arr1 - arr2 = 6 - 5 = 1
