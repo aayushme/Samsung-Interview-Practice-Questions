@@ -1,0 +1,26 @@
+Question :
+
+You are given an array of length n, which can contain candy with points from 1 to n.
+Andy the robot needs to collect all the points, by travelling the minimum distance.
+Return the minimum distance travelled by andy.
+
+How will andy collect the points ?
+1. He will always start from 0th index.
+2. He will collect points in a fashion that first of all he will collect all points with value one,
+    then he will collect all points with value 2, then all points with value 3...so on.
+
+Constraints:
+1 <= n <= 10^5
+
+Example
+Input: [2, 1, 4, 3, 1, 2, 3, 5, 4, 4, 5]
+Output: 
+
+Explanation:
+For all 1 : the robot will travel from 0 -> 4 index, travel = 4, now the robot is at idx 4
+For all 2 : the robot will move from 4 -> 5 and 5 -> 0, travel = 5, now robot is at idx 0
+For all 3 : the robot will move from 0 -> 6, travel = 6, now robot is at idx 6
+For all 4 : the robot will move from 6 -> 9 and 9 -> 2, travel = 10, robot is at idx 2
+For all 5 : the robot will move from 2 -> 10, travel = 8
+
+Total Travel = 4 + 5 + 6 + 10 + 8 = 33
