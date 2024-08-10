@@ -1,6 +1,6 @@
 Question:
 You are given 2 arrays, arr1 and arr2, of each length n, having n number of elements.
-You have to find an element X for which sum of elements of arr1 - arr2 is maximise.
+You have to find an minimum element X for which sum of elements of arr1 - arr2 is maximise.
 
 How to choose X?
 1. When you will choose the X, the elements smaller than X will become 1,
