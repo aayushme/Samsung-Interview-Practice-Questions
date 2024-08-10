@@ -17,10 +17,10 @@ Input: [2, 1, 4, 3, 1, 2, 3, 5, 4, 4, 5]
 Output: 
 
 Explanation:
-For all 1 : the robot will travel from 0 -> 4 index, travel = 4, now the robot is at idx 4
-For all 2 : the robot will move from 4 -> 5 and 5 -> 0, travel = 6, now robot is at idx 0
-For all 3 : the robot will move from 0 -> 6, travel = 6, now robot is at idx 6
-For all 4 : the robot will move from 6 -> 9 and 9 -> 2, travel = 10, robot is at idx 2
-For all 5 : the robot will move from 2 -> 10, travel = 8
+For all 1 : the robot will travel from 0 -> 4 index
+For all 2 : the robot will move from 4 -> 5 and 5 -> 0
+For all 3 : the robot will move from 0 -> 6, travel = 6
+For all 4 : the robot will move from 6 -> 2 and 2 -> 9
+For all 5 : the robot will move from 9 -> 10 and 10 -> 7
 
-Total Travel = 4 + 6 + 6 + 10 + 8 = 34
+Total Travel = 4 + 1 + 5 + 6 + 2 + 7 + 1 + 3 = 29
